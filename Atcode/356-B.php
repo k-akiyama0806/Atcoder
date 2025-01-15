@@ -1,6 +1,6 @@
 <?php
 
-fscanf(STDIN, "%d %d %d", $N, $M);
+fscanf(STDIN, "%d %d", $N, $M);
 // 目標値
 $goal = array_map('intval', explode(' ', trim(fgets(STDIN))));
 
